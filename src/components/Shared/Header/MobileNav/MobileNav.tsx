@@ -74,7 +74,7 @@ const MobileNav = () => {
 							}
 						}}
 					>
-						GSJoy
+						Faysal
 					</Typography>
 				</Link>
 				<IconButton

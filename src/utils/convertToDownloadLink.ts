@@ -1,5 +1,5 @@
 function convertToDownloadLink(driveUrl: string): string {
-	const fileIdMatch = driveUrl.match(/\/d\/([a-zA-Z0-9_-]+)/);
+	const fileIdMatch = driveUrl?.match(/\/d\/([a-zA-Z0-9_-]+)/);
 	if (!fileIdMatch) {
 		throw new Error('Invalid Google Drive URL');
 	}

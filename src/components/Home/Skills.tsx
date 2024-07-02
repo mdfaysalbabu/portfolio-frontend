@@ -64,7 +64,7 @@ const Skills = ({ data }: { data: TProp }) => {
 						))}
 					</Typography>
 					<Box>
-						{data?.frontEndSkills.split(',').map((el: string, i: number) => (
+						{data?.frontEndSkills?.split(',').map((el: string, i: number) => (
 							<motion.span
 								initial={{ opacity: 0 }}
 								whileInView={{ opacity: 1 }}
